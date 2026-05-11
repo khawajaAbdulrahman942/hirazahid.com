@@ -28,18 +28,9 @@
                     <h2 class="category-title mb-5">Full Stack Developer & Ai Integrator</h2>
 
                     <div class="about-text-content mb-5">
-                        <p class="category-description mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                            eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan,
-                            risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum
-                            velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia
-                            nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante
-                            pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel
-                            bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                        </p>
-
-                        <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                            vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
-                            litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p class="category-description mb-4">I build scalable full-stack applications with a strong focus on performance, reliability, and modern user experience. With over six years of experience across React, Next.js, Node.js, Laravel, and FastAPI, I specialize in developing high-quality digital products backed by clean architecture and efficient backend systems.</p>
+                        <p class="category-description mb-4">My expertise extends into AI-powered product development, where I integrate OpenAI and LLM technologies into real-world SaaS platforms, automation systems, and intelligent workflows. I approach AI as a core product capability — supported by scalable APIs, cloud infrastructure, and optimized MongoDB and SQL database architectures.</p>
+                        <p class="category-description">I bring a problem-solving mindset to every project, whether it involves building scalable multi-tenant platforms, optimizing application performance, or engineering intelligent features that deliver measurable value. Focused on precision, scalability, and long-term maintainability, I develop solutions designed to perform in real-world production environments.</p>
                     </div>
 
                     <div class="about-footer-row d-flex align-items-center gap-5 pt-4">
@@ -71,7 +62,7 @@
                     <!-- Experience Section -->
                     <div class="experience-section mt-5 pt-5">
                         <h2 class="category-title mb-4">Experience</h2>
-                        <p class="category-description mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p class="category-description mb-5">Delivering modern software solutions across web development, AI automation, SaaS platforms, and scalable backend systems. Focused on building reliable digital products with clean architecture, optimized performance, and intelligent user experiences.</p>
 
                         <div class="experience-list">
                             <!-- Experience 1: Systems -->
@@ -80,7 +71,8 @@
                                     <h3 class="systems-logo">systems</h3>
                                 </div>
                                 <div class="col-md-9">
-                                    <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                    <h4 class="text-white mb-2" style="font-weight: 600;">Full Stack Engineer</h4>
+                                    <p class="category-description">Led full-stack development across client-facing web platforms and internal tooling. Designed RESTful APIs in Node.js and Laravel, implemented React frontends, and introduced OpenAI-powered automation that cut manual processing time by over 60%. Owned system architecture decisions and oversaw cloud deployment pipelines.</p>
                                 </div>
                             </div>
 
@@ -90,7 +82,8 @@
                                     <img src="{{ asset('assets/arpatech.webp') }}" alt="Arpatech" class="img-fluid exp-logo">
                                 </div>
                                 <div class="col-md-9">
-                                    <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                    <h4 class="text-white mb-2" style="font-weight: 600;">Backend Developer</h4>
+                                    <p class="category-description">Built and maintained backend services for enterprise-level SaaS products using Node.js and MongoDB. Designed scalable data models, engineered high-throughput API layers, and collaborated with cross-functional teams to deliver product features on accelerated timelines. Contributed significantly to performance optimization work across core services.</p>
                                 </div>
                             </div>
 
@@ -100,7 +93,8 @@
                                     <img src="{{ asset('assets/grownix.webp') }}" alt="Grownix" class="img-fluid exp-logo grownix-logo">
                                 </div>
                                 <div class="col-md-9">
-                                    <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                    <h4 class="text-white mb-2" style="font-weight: 600;">AI Integration Specialist</h4>
+                                    <p class="category-description">Embedded AI features into a growth-focused SaaS platform integrating LLM workflows via FastAPI, building automated content pipelines using OpenAI, and deploying Python-based data services. Delivered AI-driven personalization features that measurably improved user engagement and platform retention metrics.</p>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +103,7 @@
                     <!-- Skills Section -->
                     <div class="skills-section mt-5 pt-5">
                         <h2 class="category-title mb-4">Skills</h2>
-                        <p class="category-description mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p>
+                        <p class="category-description mb-5">My technical foundation spans the full spectrum of modern development from building responsive, high-performance frontends with React and Next.js to engineering scalable backend architectures in Node.js, Laravel, and FastAPI. I specialize in AI/LLM integration using OpenAI APIs, performance optimization across distributed systems, and deploying production-ready cloud solutions. Every skill I've built is in service of one goal: shipping software that solves real problems, at scale.</p>
 
                         <div class="row g-5">
                             <div class="col-md-6">

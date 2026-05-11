@@ -25,8 +25,7 @@
                     </h1>
                     <h2 class="hero-subtitle mb-4">Full Stack Developer & AI Integrator</h2>
                     <p class="hero-description mb-5">
-                        Building smart, scalable applications by blending full-stack development with AI to create
-                        efficient, real-world solutions.
+                        I build at the intersection of engineering and intelligence  scalable backends, sharp frontends, and AI that earns its place in the product.
                     </p>
                     <div class="hero-ctas d-flex gap-3">
                         <a href="{{ route('contact') }}" class="btn btn-primary-custom rounded-pill">
@@ -109,11 +108,7 @@
                 <div class="col-lg-6 about-content">
                     <span class="section-badge mb-3">About Me</span>
                     <h2 class="section-title mb-4">Full Stack Developer & Ai Integrator</h2>
-                    <p class="about-text mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                        vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
-                        litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                    <p class="about-text mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                        vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                    <p class="about-text mb-5">Full Stack Developer & AI Integrator with 6+ years of experience building scalable, high-performance web applications and modern SaaS platforms. Specialized in React, Next.js, Node.js, Laravel, FastAPI, and AI-powered systems, with strong expertise in backend architecture, API integrations, cloud solutions, and performance optimization. Focused on developing reliable, intelligent, and production-ready digital products that combine clean user experiences with scalable engineering.</p>
 
                     <a href="#" class="btn-resume mb-5">
                         Download Resume <span class="arrow-circle"><i class="fa-solid fa-arrow-up"></i></span>
@@ -150,13 +145,11 @@
                             class="img-floating-laptop">
 
                         <!-- Social Card -->
-                        <div class="about-social-card">
+                        <div class="about-social-card text-center">
                             <h5 class="mb-3">Where to find me</h5>
-                            <div class="social-icons-row d-flex gap-2">
-                                <a href="#" class="social-box"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="social-box"><i class="fab fa-github"></i></a>
-                                <a href="#" class="social-box"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="#" class="social-box"><i class="fab fa-instagram"></i></a>
+                            <div class="social-icons-row d-flex gap-2 justify-content-center">
+                                <a href="https://github.com/HiraZahid123" target="_blank" class="social-box"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/hira-zahid-2635a558/" target="_blank" class="social-box"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +164,7 @@
                 <div class="col-12 section-header-padding">
                     <span class="section-badge mb-3">Services</span>
                     <h2 class="section-title mb-3">My Specialties</h2>
-                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p class="about-text">Every service I offer is built around one goal: solving real problems with technology that's precise, scalable, and built to last.</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -181,9 +174,8 @@
                         <div class="service-icon mb-4">
                             <i class="fa-solid fa-code"></i>
                         </div>
-                        <h4 class="service-title mb-3">Full Stack Developer & Ai Integrator</h4>
-                        <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                            libero et velit interdum, ac aliquet odio mattis.</p>
+                        <h4 class="service-title mb-3">Full Stack Development & AI Integration</h4>
+                        <p class="service-desc">I architect and ship complete web applications — from database to deployment. Every layer is built with performance in mind, and AI is wired in where it creates genuine value, not just for show.</p>
                     </div>
                 </div>
                 <!-- Service 2 -->
@@ -193,8 +185,7 @@
                             <i class="fa-solid fa-brain"></i>
                         </div>
                         <h4 class="service-title mb-3">AI Integration & Neural Networks</h4>
-                        <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                            libero et velit interdum, ac aliquet odio mattis.</p>
+                        <p class="service-desc">I integrate large language models, OpenAI APIs, and custom AI pipelines directly into your product. The result isn't a chatbot bolted on — it's intelligence embedded into your core workflow.</p>
                     </div>
                 </div>
                 <!-- Service 3 -->
@@ -204,8 +195,7 @@
                             <i class="fa-solid fa-mobile-screen-button"></i>
                         </div>
                         <h4 class="service-title mb-3">Responsive Web & App Design</h4>
-                        <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                            libero et velit interdum, ac aliquet odio mattis.</p>
+                        <p class="service-desc">Clean, fast, and built for every screen. I design and develop interfaces that feel native whether your users are on desktop, tablet, or mobile — with zero compromise on experience.</p>
                     </div>
                 </div>
                 <!-- Service 4 -->
@@ -215,8 +205,7 @@
                             <i class="fa-solid fa-layer-group"></i>
                         </div>
                         <h4 class="service-title mb-3">Architecture & Cloud Solutions</h4>
-                        <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                            libero et velit interdum, ac aliquet odio mattis.</p>
+                        <p class="service-desc">From multi-tenant SaaS infrastructure to serverless deployments, I design backend architectures that handle scale without breaking a sweat. Built for growth from day one.</p>
                     </div>
                 </div>
                 <!-- Service 5 -->
@@ -226,8 +215,7 @@
                             <i class="fa-solid fa-database"></i>
                         </div>
                         <h4 class="service-title mb-3">Database Design & Optimization</h4>
-                        <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                            libero et velit interdum, ac aliquet odio mattis.</p>
+                        <p class="service-desc">Well-structured data is the foundation of every fast product. I design relational and NoSQL schemas, optimize slow queries, and build data layers that stay reliable under real traffic.</p>
                     </div>
                 </div>
                 <!-- Service 6 -->
@@ -237,8 +225,7 @@
                             <i class="fa-solid fa-shield-halved"></i>
                         </div>
                         <h4 class="service-title mb-3">Technical Consultation & Security</h4>
-                        <p class="service-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                            libero et velit interdum, ac aliquet odio mattis.</p>
+                        <p class="service-desc">Before you build or scale, get it right. I review architectures, identify bottlenecks, audit security vulnerabilities, and give you a concrete roadmap — not vague advice.</p>
                     </div>
                 </div>
             </div>

@@ -4,8 +4,7 @@
             <!-- Column 1: Logo & Info -->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <a href="{{ route('home') }}" class="footer-logo mb-4 d-inline-block">HIRA<span>.</span></a>
-                <p class="footer-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                    libero</p>
+                <p class="footer-desc">Transforming Complex Challenges Into Intelligent Digital Solutions</p>
             </div>
 
             <!-- Column 2: Navigation -->

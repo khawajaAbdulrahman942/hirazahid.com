@@ -98,6 +98,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 const filterValue = button.getAttribute('data-category');
 
+                // Dynamic Category Intros
+                const categoryIntros = {
+                    'all': {
+                        title: 'Full Stack Developer & AI Integrator',
+                        desc: 'Six years of shipping real products — not prototypes. Browse by stack or explore everything: MERN applications, Laravel-powered platforms, and AI-integrated systems built for production. Each project here represents a problem solved, a client served, and a standard I hold myself to.'
+                    },
+                    'mern stack': {
+                        title: 'MERN Stack Developer',
+                        desc: 'I build full-featured web applications using MongoDB, Express, React, and Node.js — end to end. These projects range from real-time platforms and SaaS dashboards to REST API-driven applications with clean, responsive frontends. Every project is structured for maintainability and built to handle real users, not just demos.'
+                    },
+                    'laravel stack': {
+                        title: 'Laravel Stack Developer',
+                        desc: "Laravel is where I bring structure and elegance to backend-heavy projects. From multi-role admin panels and e-commerce platforms to custom CMS solutions and API backends — I leverage Laravel's ecosystem to ship reliable, well-architected applications fast. Clean MVC, robust authentication, optimized queries — no shortcuts."
+                    },
+                    'ai powered': {
+                        title: 'AI-Powered Applications',
+                        desc: "These are the projects I'm most proud of. I've built AI-powered tools that go beyond gimmicks — intelligent document processors, LLM-integrated SaaS features, OpenAI-driven automation pipelines, and smart search systems. Each one is engineered to solve a specific problem, with AI doing the heavy lifting behind the scenes."
+                    }
+                };
+
+                const introSection = document.querySelector('.category-intro-section');
+                if (introSection && categoryIntros[filterValue]) {
+                    const titleEl = introSection.querySelector('.category-title');
+                    const descEl = introSection.querySelector('.category-description');
+                    
+                    if (titleEl && descEl) {
+                        // Subtle fade effect for text change
+                        titleEl.style.opacity = '0';
+                        descEl.style.opacity = '0';
+                        
+                        setTimeout(() => {
+                            titleEl.textContent = categoryIntros[filterValue].title;
+                            descEl.textContent = categoryIntros[filterValue].desc;
+                            titleEl.style.opacity = '1';
+                            descEl.style.opacity = '1';
+                        }, 200);
+                    }
+                }
+
                 projectCards.forEach(card => {
                     if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
                         card.style.display = 'block';

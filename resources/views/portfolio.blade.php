@@ -37,10 +37,8 @@
                     </div>
 
                     <div class="category-intro-section mt-5 mb-5">
-                        <h2 class="category-title">MERN STACK Developer</h2>
-                        <p class="category-description">This website follows a clean, professional, and high-contrast design
-                            aesthetic. It uses a sophisticated palette that balances dark tones with vibrant pops of color
-                            to highlight key information.</p>
+                        <h2 class="category-title">Full Stack Developer & AI Integrator</h2>
+                        <p class="category-description">Six years of shipping real products — not prototypes. Browse by stack or explore everything: MERN applications, Laravel-powered platforms, and AI-integrated systems built for production. Each project here represents a problem solved, a client served, and a standard I hold myself to.</p>
                     </div>
                 </div>
 
