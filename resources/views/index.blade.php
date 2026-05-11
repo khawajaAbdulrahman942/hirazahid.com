@@ -262,16 +262,13 @@
                         <div class="testimonial-card">
                             <div class="testimonial-card-rim"></div>
                             <div class="quote-icon">“</div>
-                            <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.</p>
+                            <p class="testimonial-text">Working with Hira has been one of the best experiences I've had. She is not only a highly skilled full-stack developer, but also a truly professional and pleasant person to collaborate with. She wrote clean, well-structured code and delivered above expectations.</p>
                             <div class="client-info">
                                 <div class="client-img">
-                                    <img src="https://i.pravatar.cc/150?img=11" alt="Client">
+                                    <img src="https://i.pravatar.cc/150?img=32" alt="Client">
                                 </div>
-                                <h5 class="client-name">JOHN SMITH</h5>
-                                <p class="client-role">Founder of Awesomex Technology</p>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">SaaS Founder & Product Owner</p>
                             </div>
                         </div>
                     </div>
@@ -280,16 +277,13 @@
                         <div class="testimonial-card">
                             <div class="testimonial-card-rim"></div>
                             <div class="quote-icon">“</div>
-                            <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.</p>
+                            <p class="testimonial-text">Hira is one of the strongest freelancers I've worked with. She moves quickly, understands the objective without over-explanation, and consistently delivers high-quality work. Communication is clear, and She steps up when things get complex.</p>
                             <div class="client-info">
                                 <div class="client-img">
-                                    <img src="https://i.pravatar.cc/150?img=12" alt="Client">
+                                    <img src="https://i.pravatar.cc/150?img=44" alt="Client">
                                 </div>
-                                <h5 class="client-name">SARAH JANE</h5>
-                                <p class="client-role">CEO of TechFlow</p>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">Media Workflow Solutions</p>
                             </div>
                         </div>
                     </div>
@@ -298,16 +292,73 @@
                         <div class="testimonial-card">
                             <div class="testimonial-card-rim"></div>
                             <div class="quote-icon">“</div>
-                            <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.</p>
+                            <p class="testimonial-text">I can't recommend Hira enough. She does not only do her job perfectly and professionally, she also goes the extra mile to give recommendations and explains everything. She is very easy to work with and always ready to understand!</p>
                             <div class="client-info">
                                 <div class="client-img">
-                                    <img src="https://i.pravatar.cc/150?img=13" alt="Client">
+                                    <img src="https://i.pravatar.cc/150?img=53" alt="Client">
                                 </div>
-                                <h5 class="client-name">MICHAEL ROSS</h5>
-                                <p class="client-role">Product Manager at Innovate</p>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">Web Platform Architect</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-rim"></div>
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">Outstanding work—completed the job beyond our expectations. Professional, efficient, and great communication throughout. We will definitely hire again. Highly recommended!</p>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="https://i.pravatar.cc/150?img=60" alt="Client">
+                                </div>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">Web Development Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-rim"></div>
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">hira did an excellent job creating my medical website. constant communication. wonderful result. A+. will hire her again in the future!</p>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="https://i.pravatar.cc/150?img=15" alt="Client">
+                                </div>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">Medical Professional</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-rim"></div>
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">I thought Hira was extremely professional, timely and responsive and applied accurate detail to requests and queries. I highly recommend Hira.</p>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="https://i.pravatar.cc/150?img=22" alt="Client">
+                                </div>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">Vercel & Next.js Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 7 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-rim"></div>
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">Hira and her team were wonderful to work with and the project was completed to my (fairly exacting!) standards on time with no issues whatsoever. I recommend Hira without reservation.</p>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="https://i.pravatar.cc/150?img=33" alt="Client">
+                                </div>
+                                <h5 class="client-name">Client</h5>
+                                <p class="client-role">Full Stack & AI Development</p>
                             </div>
                         </div>
                     </div>

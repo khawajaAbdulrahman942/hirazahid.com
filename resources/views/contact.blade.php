@@ -83,9 +83,7 @@
                                 </div>
                                 <div>
                                     <span class="contact-info-label">PHYSICAL ADDRESS</span>
-                                    <p class="contact-info-text mb-0">101 Tech Plaza, Silicon District<br>San Francisco,
-                                        CA
-                                        94103<br>United States</p>
+                                    <p class="contact-info-text mb-0">Madina Town, Faisalabad<br>Punjab, 38000<br>Pakistan</p>
                                 </div>
                             </div>
                         </div>
@@ -98,8 +96,8 @@
                                 </div>
                                 <div>
                                     <span class="contact-info-label">PHONE NUMBER</span>
-                                    <p class="contact-info-text mb-1">+92 300-5157825</p>
-                                    <span class="contact-hours">Mon - Fri, 9am - 6pm PST</span>
+                                    <p class="contact-info-text mb-1">+92 92 301 7866911</p>
+                                    <span class="contact-hours">Mon - Fri, 9am - 6pm PKT</span>
                                 </div>
                             </div>
 
@@ -108,10 +106,8 @@
                             <div>
                                 <span class="contact-info-label mb-4">SOCIAL MEDIA PROFILES</span>
                                 <div class="d-flex gap-3">
-                                    <a href="#" class="contact-social-icon"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="contact-social-icon"><i class="fab fa-github"></i></a>
-                                    <a href="#" class="contact-social-icon"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#" class="contact-social-icon"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/HiraZahid123" class="contact-social-icon"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/hira-zahid-2635a558/" class="contact-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +115,7 @@
                         <!-- Map -->
                         <div class="contact-map-card">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.123456!2d67.0011!3d24.8607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDUxJzM4LjUiTiA2N8KwMDAnMDMuOSJF!5e0!3m2!1sen!2s!4v1600000000000"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54452.9231885567!2d73.0761266!3d31.4175323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a8b9f1d0ef%3A0x628456a334e70e93!2sMadina%20Town%2C%20Faisalabad%2C%20Punjab!5e0!3m2!1sen!2s!4v1715421500000!5m2!1sen!2s"
                                 width="100%" height="200"
                                 style="border:0; border-radius: 20px; filter: invert(90%) hue-rotate(180deg) saturate(0.3) brightness(0.6);"
                                 allowfullscreen="" loading="lazy"></iframe>
@@ -183,34 +179,52 @@
                                     <div class="calendar-day-label">SAT</div>
                                     <div class="calendar-day-label text-center">SUN<br><span>N</span></div>
 
-                                    <!-- Dates (Static example from HTML) -->
-                                    <div class="calendar-date muted">26</div>
-                                    <div class="calendar-date muted">27</div>
-                                    <div class="calendar-date muted">28</div>
-                                    <div class="calendar-date muted">29</div>
-                                    <div class="calendar-date muted">30</div>
-                                    <div class="calendar-date muted">31</div>
-                                    <div class="calendar-date current-month">1</div>
+                                    @php
+                                        $today = new DateTime();
+                                        $month = (int)$today->format('m');
+                                        $year = (int)$today->format('Y');
+                                        
+                                        $firstDayOfMonth = new DateTime("$year-$month-01");
+                                        $daysInMonth = (int)$firstDayOfMonth->format('t');
+                                        $startDayOfWeek = (int)$firstDayOfMonth->format('N'); // 1 (Mon) to 7 (Sun)
+                                        
+                                        // Previous month days to show
+                                        $prevMonth = clone $firstDayOfMonth;
+                                        $prevMonth->modify('-1 month');
+                                        $daysInPrevMonth = (int)$prevMonth->format('t');
+                                        $prevMonthDaysToShow = $startDayOfWeek - 1;
+                                        
+                                        $currentDay = (int)$today->format('d');
+                                    @endphp
 
-                                    <div class="calendar-date active">2</div>
-                                    <div class="calendar-date active">3</div>
-                                    <div class="calendar-date active">4</div>
-                                    <div class="calendar-date selected">5</div>
-                                    <div class="calendar-date active">6</div>
-                                    <div class="calendar-date">7</div>
-                                    <div class="calendar-date">8</div>
+                                    <!-- Previous Month Dates -->
+                                    @for ($i = $prevMonthDaysToShow - 1; $i >= 0; $i--)
+                                        <div class="calendar-date muted">{{ $daysInPrevMonth - $i }}</div>
+                                    @endfor
 
-                                    <div class="calendar-date active">9</div>
-                                    <div class="calendar-date active">10</div>
-                                    <div class="calendar-date active">11</div>
-                                    <div class="calendar-date active">12</div>
-                                    <div class="calendar-date active">13</div>
-                                    <div class="calendar-date">14</div>
-                                    <div class="calendar-date">15</div>
+                                    <!-- Current Month Dates -->
+                                    @for ($day = 1; $day <= $daysInMonth; $day++)
+                                        @php
+                                            $classes = ['calendar-date'];
+                                            if ($day == $currentDay) $classes[] = 'selected';
+                                            elseif ($day > $currentDay) $classes[] = 'active';
+                                        @endphp
+                                        <div class="{{ implode(' ', $classes) }}" data-day="{{ $day }}">{{ $day }}</div>
+                                    @endfor
+
+                                    <!-- Next Month Dates -->
+                                    @php
+                                        $totalCells = 35; // Standard 5-row grid
+                                        $remainingCells = $totalCells - ($prevMonthDaysToShow + $daysInMonth);
+                                        if ($remainingCells < 0) $remainingCells += 7; // Handle 6-row months
+                                    @endphp
+                                    @for ($i = 1; $i <= $remainingCells; $i++)
+                                        <div class="calendar-date muted">{{ $i }}</div>
+                                    @endfor
                                 </div>
 
                                 <div class="text-center mt-5">
-                                    <button class="btn btn-primary rounded-pill px-5 py-3 fw-bold"
+                                    <button class="btn btn-primary rounded-pill px-5 py-3 fw-bold btn-continue-slots"
                                         style="background: var(--primary-color); border: none; font-size: 0.9rem;">
                                         Continue to Time Slots
                                     </button>

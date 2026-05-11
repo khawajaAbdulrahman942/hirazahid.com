@@ -188,6 +188,52 @@ body {
     background-size: cover;
 }
 
+/* Footer Styles */
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.05rem;
+    display: inline-block;
+    padding: 0.4rem 0;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+    padding-left: 5px;
+}
+
+.footer-contact-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact-link:hover {
+    color: var(--primary-color);
+}
+
+.social-box {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-box:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+    transform: translateY(-3px);
+}
+
 /* Navbar Base Styles */
 .navbar {
     padding: 1.2rem 5%;
@@ -2086,5 +2132,15 @@ textarea.glass-input {
     color: rgba(255, 255, 255, 0.8);
     max-width: 100%;
     margin-bottom: 3rem;
+}
+
+.pulse-animation {
+    animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-glow {
+    0% { box-shadow: 0 0 0 0 rgba(151, 25, 253, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(151, 25, 253, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(151, 25, 253, 0); }
 }
 

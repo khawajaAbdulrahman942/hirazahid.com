@@ -130,7 +130,48 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, { threshold: 0.1 });
 
-    skillBars.forEach(bar => {
-        skillObserver.observe(bar);
-    });
+    // Calendar Date Selection
+    const calendarDates = document.querySelectorAll('.calendar-date:not(.muted)');
+    const continueBtn = document.querySelector('.btn-continue-slots');
+
+    if (calendarDates.length > 0) {
+        calendarDates.forEach(date => {
+            date.addEventListener('click', () => {
+                // Remove selected class from all dates
+                calendarDates.forEach(d => d.classList.remove('selected', 'active'));
+                calendarDates.forEach(d => {
+                    const day = parseInt(d.getAttribute('data-day'));
+                    const currentDay = new Date().getDate();
+                    if (day > currentDay) d.classList.add('active');
+                });
+
+                // Add selected class to clicked date
+                date.classList.remove('active');
+                date.classList.add('selected');
+                
+                // Enable button or show feedback
+                if (continueBtn) {
+                    continueBtn.innerHTML = `Continue for May ${date.getAttribute('data-day')}`;
+                    continueBtn.classList.add('pulse-animation');
+                }
+            });
+        });
+    }
+
+    if (continueBtn) {
+        continueBtn.addEventListener('click', () => {
+            const selectedDate = document.querySelector('.calendar-date.selected');
+            if (selectedDate) {
+                const day = selectedDate.getAttribute('data-day').padStart(2, '0');
+                const now = new Date();
+                const year = now.getFullYear();
+                const month = (now.getMonth() + 1).toString().padStart(2, '0');
+                
+                const calendlyUrl = `https://calendly.com/compilelogics/30min?month=${year}-${month}&date=${year}-${month}-${day}`;
+                window.open(calendlyUrl, '_blank');
+            } else {
+                alert('Please select a date from the calendar first.');
+            }
+        });
+    }
 });

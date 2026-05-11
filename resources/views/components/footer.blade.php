@@ -23,14 +23,12 @@
             <div class="col-lg-3 mb-5 mb-lg-0">
                 <h5 class="footer-heading mb-4">TALK TO US</h5>
                 <div class="footer-contact-info mb-4">
-                    <a href="mailto:career@gmail.com" class="footer-contact-link d-block mb-2">career@gmail.com</a>
-                    <a href="tel:+923005157825" class="footer-contact-link">+92 300-5157825</a>
+                    <a href="mailto:hirazahid@gmail.com" class="footer-contact-link d-block mb-2">hirazahid@gmail.com</a>
+                    <a href="tel:+923017866911" class="footer-contact-link">+92 301 7866911</a>
                 </div>
                 <div class="footer-social-icons d-flex gap-3">
-                    <a href="#" class="social-box"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-box"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-box"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-box"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/HiraZahid123" target="_blank" class="social-box"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/hira-zahid-2635a558/" target="_blank" class="social-box"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
 
