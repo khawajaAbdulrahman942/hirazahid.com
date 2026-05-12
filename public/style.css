@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 :root {
     --bg-color: #05040a;
     --primary-color: #9719FD;
@@ -6,8 +8,8 @@
     --text-muted: rgba(255, 255, 255, 0.7);
     --nav-bg: rgba(5, 4, 10, 0.8);
     --grid-color: rgba(139, 92, 246, 0.2);
-    --font-sans: 'Outfit', sans-serif;
-    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Montserrat', sans-serif;
+    --font-serif: 'Montserrat', sans-serif;
     --move-x: 0px;
     --move-y: 0px;
 }
@@ -40,7 +42,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--secondary-color);
-    font-family: var(--font-sans);
+    font-family: var(--font-sans) !important;
     overflow-x: hidden;
     line-height: 1.6;
 }
@@ -390,7 +392,7 @@ body {
     color: var(--text-muted);
     max-width: 600px;
     margin-bottom: 3rem;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-sans);
     font-weight: 300;
     font-size: 20px;
     line-height: 100%;
@@ -950,7 +952,7 @@ body {
 
 .stat-card p {
     color: rgba(255, 255, 255);
-    font-family: Outfit;
+    font-family: var(--font-sans);
 font-weight: 500;
 font-style: Medium;
 font-size: 12.18px;
@@ -1115,7 +1117,7 @@ letter-spacing: 0%;
 
 .testimonial-text {
     color: #ffffff;
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-sans);
     font-weight: 300;
     font-size: 15.72px;
     font-style: italic; /* Added Italic */
@@ -1155,7 +1157,7 @@ letter-spacing: 0%;
 
 .client-name {
     color: #E0E0E0;
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-sans);
     font-weight: 500;
     font-size: 14.94px;
     line-height: 25.16px;
@@ -1166,7 +1168,7 @@ letter-spacing: 0%;
 
 .client-role {
     color: #B6BCCC;
-    font-family: 'Prompt', sans-serif;
+    font-family: var(--font-sans);
     font-weight: 300;
     font-size: 14.15px;
     line-height: 25.16px;
@@ -1269,7 +1271,7 @@ letter-spacing: 0%;
 }
 
 .footer-logo {
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-sans);
     font-size: 2.2rem;
     font-weight: 800;
     color: white;
@@ -1476,12 +1478,7 @@ letter-spacing: 0%;
     position: relative;
 }
 
-/* Specific override to decrease right padding slightly as requested */
-@media (min-width: 992px) {
-    .portfolio-main-content {
-        padding-right: 3%; 
-    }
-}
+
 
 .portfolio-intro {
     text-align: left;
@@ -1986,9 +1983,9 @@ textarea.glass-input {
 
 /* Scheduling Section Styles */
 .scheduling-section {
-    background: transparent; /* Changed to transparent for unified gradient */
+    background: transparent;
     position: relative;
-    padding-bottom: 100px;
+    padding: 3rem 5% 100px 5%; /* Aligned with 5% side padding */
 }
 
 .page-gradient-wrapper {
@@ -2002,8 +1999,8 @@ textarea.glass-input {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 40px 100px rgba(0,0,0,0.4);
-    margin: 0 auto; /* Centered */
-    max-width: 1100px; 
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .discovery-info-col {
