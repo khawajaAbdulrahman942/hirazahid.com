@@ -820,24 +820,25 @@ body {
 /* Visual Elements */
 .img-tech-orb {
     position: absolute;
-    width: 320px;
-    height: 220px;
+    width: 380px;
+    height: 260px;
     object-fit: cover;
     object-position: center;
-    right: -20px;
-    top: 20px;
+    right: -35px; /* Pulled closer to center */
+    top: 10px;
     border-radius: 24px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
 
 .img-floating-laptop {
     position: absolute;
-    width: 220px;
-    height: 150px;
+    width: 280px;
+    height: 190px;
     object-fit: cover;
     object-position: center;
-    left: -40px;
-    top: 150px;
+    left: -45px; /* Pulled closer to center */
+    top: 140px; /* Pulled closer to tech orb */
     z-index: 5;
     border-radius: 24px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
@@ -852,14 +853,32 @@ body {
 /* Social Card in About */
 .about-social-card {
     position: absolute;
-    bottom: -10px;
-    left: 40px;
+    bottom: 30px; /* Pulled up closer to visual center */
+    left: 80px; /* Pulled in closer to visual center */
     background: #150525;
     padding: 15px 30px;
     border-radius: 24px;
     z-index: 10;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
     text-align: center;
+}
+
+/* Enhanced sizing for ultra-wide screens */
+@media (min-width: 1400px) {
+    .about-visuals-container {
+        height: 550px; /* Slightly shorter */
+    }
+    .img-tech-orb {
+        width: 420px;
+        height: 290px;
+    }
+    .img-floating-laptop {
+        width: 310px;
+        height: 210px;
+    }
+    .circle-1 { width: 480px; height: 480px; }
+    .circle-2 { width: 330px; height: 330px; }
+    .circle-3 { width: 170px; height: 170px; }
 }
 
 .about-social-card h5 {
@@ -1196,7 +1215,30 @@ letter-spacing: 0%;
     border-radius: 10px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
+    .about-visuals-container {
+        height: 400px; /* Reduced height for stacked view */
+        margin-top: 50px;
+    }
+    .img-tech-orb {
+        width: 350px;
+        height: 237px;
+        right: 15%; /* Pulled in from the far edge */
+        top: 0;
+    }
+    .img-floating-laptop {
+        width: 266px;
+        height: 179px;
+        left: 15%; /* Pulled in from the far edge */
+        top: 120px;
+    }
+    /* .about-social-card {
+        right: 18%;
+        bottom: 5%;
+    } */
+    .circle-1 { width: 350px; height: 350px; }
+    .circle-2 { width: 250px; height: 250px; }
+    .circle-3 { width: 120px; height: 120px; }
     .about-content, .section-header-padding {
         text-align: center;
     }
@@ -1213,8 +1255,8 @@ letter-spacing: 0%;
     }
     .about-social-card {
         left: auto;
-        right: 140px;
-        bottom: 100px;
+        right: 38%;
+        bottom: 10%;
         top: auto;
         transform: none;
         padding: 12px 20px;
@@ -1497,7 +1539,7 @@ letter-spacing: 0%;
     line-height: 1.6;
     font-weight: 400;
     letter-spacing: 0.01em;
-    max-width: 100%; /* Increased from 800px */
+    max-width: 100%;
 }
 
 .btn-resume-custom {
@@ -1776,7 +1818,7 @@ textarea.glass-input {
 
 /* Category Intro Section */
 .category-intro-section {
-    max-width: 900px;
+    max-width: 0px 5%;
 }
 
 .category-title {

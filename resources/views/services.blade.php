@@ -14,7 +14,7 @@
         <div class="container text-center">
             <div class="hero-content-wrapper mx-auto">
                 <h1 class="portfolio-hero-title">My <span>Services</span></h1>
-                <p class="portfolio-hero-desc mx-auto">I deliver end-to-end digital solutions — combining sharp engineering, intelligent systems, and clean design to build products that perform.</p>
+                <p class="portfolio-hero-desc mx-auto">I deliver end-to-end digital solutions combining sharp engineering, intelligent systems, and clean design to build products that perform.</p>
             </div>
         </div>
     </header>
@@ -37,7 +37,7 @@
                                 <i class="fa-solid fa-code"></i>
                             </div>
                             <h4 class="service-title mb-3">Full Stack Development & AI Integration</h4>
-                            <p class="service-desc">I architect and ship complete web applications — from database to deployment. Every layer is built with performance in mind, and AI is wired in where it creates genuine value, not just for show.</p>
+                            <p class="service-desc">I architect and ship complete web applications from database to deployment. Every layer is built with performance in mind, and AI is wired in where it creates genuine value, not just for show.</p>
                         </div>
                     </div>
                     <!-- Service 2 -->
@@ -47,7 +47,7 @@
                                 <i class="fa-solid fa-brain"></i>
                             </div>
                             <h4 class="service-title mb-3">AI Integration & Neural Networks</h4>
-                            <p class="service-desc">I integrate large language models, OpenAI APIs, and custom AI pipelines directly into your product. The result isn't a chatbot bolted on — it's intelligence embedded into your core workflow.</p>
+                            <p class="service-desc">I integrate large language models, OpenAI APIs, and custom AI pipelines directly into your product. The result isn't a chatbot bolted on it's intelligence embedded into your core workflow.</p>
                         </div>
                     </div>
                     <!-- Service 3 -->
@@ -57,7 +57,7 @@
                                 <i class="fa-solid fa-mobile-screen-button"></i>
                             </div>
                             <h4 class="service-title mb-3">Responsive Web & App Design</h4>
-                            <p class="service-desc">Clean, fast, and built for every screen. I design and develop interfaces that feel native whether your users are on desktop, tablet, or mobile — with zero compromise on experience.</p>
+                            <p class="service-desc">Clean, fast, and built for every screen. I design and develop interfaces that feel native whether your users are on desktop, tablet, or mobile with zero compromise on experience.</p>
                         </div>
                     </div>
                     <!-- Service 4 -->
@@ -87,7 +87,7 @@
                                 <i class="fa-solid fa-shield-halved"></i>
                             </div>
                             <h4 class="service-title mb-3">Technical Consultation & Security</h4>
-                            <p class="service-desc">Before you build or scale, get it right. I review architectures, identify bottlenecks, audit security vulnerabilities, and give you a concrete roadmap — not vague advice.</p>
+                            <p class="service-desc">Before you build or scale, get it right. I review architectures, identify bottlenecks, audit security vulnerabilities, and give you a concrete roadmap not vague advice.</p>
                         </div>
                     </div>
                 </div>
@@ -96,8 +96,8 @@
                 <div class="services-detail-section pt-5">
                     <h2 class="category-title mb-4">Full Stack Developer & AI Integrator</h2>
                     <div class="detail-content">
-                        <p class="category-description mb-4">I've spent six years building products across industries — SaaS platforms, automation tools, AI-powered applications, and everything in between. What I bring to every project isn't just technical skill; it's ownership. I treat your product like it's mine.</p>
-                        <p class="category-description">If you need someone who can take a brief and turn it into a live, scalable, intelligent system — without back-and-forth and without shortcuts — that's exactly what I do. Clean code, smart architecture, and delivery you can depend on.</p>
+                        <p class="category-description mb-4">I've spent six years building products across industries SaaS platforms, automation tools, AI-powered applications, and everything in between. What I bring to every project isn't just technical skill; it's ownership. I treat your product like it's mine.</p>
+                        <p class="category-description">If you need someone who can take a brief and turn it into a live, scalable, intelligent system without back-and-forth and without shortcuts that's exactly what I do. Clean code, smart architecture, and delivery you can depend on.</p>
                     </div>
                 </div>
             </div>

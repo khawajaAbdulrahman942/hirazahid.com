@@ -29,7 +29,7 @@
 
                     <div class="about-text-content mb-5">
                         <p class="category-description mb-4">I build scalable full-stack applications with a strong focus on performance, reliability, and modern user experience. With over six years of experience across React, Next.js, Node.js, Laravel, and FastAPI, I specialize in developing high-quality digital products backed by clean architecture and efficient backend systems.</p>
-                        <p class="category-description mb-4">My expertise extends into AI-powered product development, where I integrate OpenAI and LLM technologies into real-world SaaS platforms, automation systems, and intelligent workflows. I approach AI as a core product capability — supported by scalable APIs, cloud infrastructure, and optimized MongoDB and SQL database architectures.</p>
+                        <p class="category-description mb-4">My expertise extends into AI-powered product development, where I integrate OpenAI and LLM technologies into real-world SaaS platforms, automation systems, and intelligent workflows. I approach AI as a core product capability supported by scalable APIs, cloud infrastructure, and optimized MongoDB and SQL database architectures.</p>
                         <p class="category-description">I bring a problem-solving mindset to every project, whether it involves building scalable multi-tenant platforms, optimizing application performance, or engineering intelligent features that deliver measurable value. Focused on precision, scalability, and long-term maintainability, I develop solutions designed to perform in real-world production environments.</p>
                     </div>
 

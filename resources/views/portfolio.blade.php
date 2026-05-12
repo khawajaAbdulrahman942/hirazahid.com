@@ -37,8 +37,8 @@
                     </div>
 
                     <div class="category-intro-section mt-5 mb-5">
-                        <h2 class="category-title">Full Stack Developer & AI Integrator</h2>
-                        <p class="category-description">Six years of shipping real products — not prototypes. Browse by stack or explore everything: MERN applications, Laravel-powered platforms, and AI-integrated systems built for production. Each project here represents a problem solved, a client served, and a standard I hold myself to.</p>
+                        <h2 class="category-title" style="max-width:900px;">Full Stack Developer & AI Integrator</h2>
+                        <p class="category-description">Six years of shipping real products not prototypes. Browse by stack or explore everything: MERN applications, Laravel-powered platforms, and AI-integrated systems built for production. Each project here represents a problem solved, a client served, and a standard I hold myself to.</p>
                     </div>
                 </div>
 

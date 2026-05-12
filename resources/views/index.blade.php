@@ -105,7 +105,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <!-- Left Side: Content -->
-                <div class="col-lg-6 about-content">
+                <div class="col-xl-6 about-content">
                     <span class="section-badge mb-3">About Me</span>
                     <h2 class="section-title mb-4">Full Stack Developer & Ai Integrator</h2>
                     <p class="about-text mb-5">Full Stack Developer & AI Integrator with 6+ years of experience building scalable, high-performance web applications and modern SaaS platforms. Specialized in React, Next.js, Node.js, Laravel, FastAPI, and AI-powered systems, with strong expertise in backend architecture, API integrations, cloud solutions, and performance optimization. Focused on developing reliable, intelligent, and production-ready digital products that combine clean user experiences with scalable engineering.</p>
@@ -131,7 +131,7 @@
                 </div>
 
                 <!-- Right Side: Visuals -->
-                <div class="col-lg-6 position-relative">
+                <div class="col-xl-6 position-relative">
                     <div class="about-visuals-container">
                         <!-- Decorative Circles -->
                         <div class="decor-circle circle-1"></div>
@@ -175,7 +175,7 @@
                             <i class="fa-solid fa-code"></i>
                         </div>
                         <h4 class="service-title mb-3">Full Stack Development & AI Integration</h4>
-                        <p class="service-desc">I architect and ship complete web applications — from database to deployment. Every layer is built with performance in mind, and AI is wired in where it creates genuine value, not just for show.</p>
+                        <p class="service-desc">I architect and ship complete web applications from database to deployment. Every layer is built with performance in mind, and AI is wired in where it creates genuine value, not just for show.</p>
                     </div>
                 </div>
                 <!-- Service 2 -->
@@ -185,7 +185,7 @@
                             <i class="fa-solid fa-brain"></i>
                         </div>
                         <h4 class="service-title mb-3">AI Integration & Neural Networks</h4>
-                        <p class="service-desc">I integrate large language models, OpenAI APIs, and custom AI pipelines directly into your product. The result isn't a chatbot bolted on — it's intelligence embedded into your core workflow.</p>
+                        <p class="service-desc">I integrate large language models, OpenAI APIs, and custom AI pipelines directly into your product. The result isn't a chatbot bolted on it's intelligence embedded into your core workflow.</p>
                     </div>
                 </div>
                 <!-- Service 3 -->
@@ -195,7 +195,7 @@
                             <i class="fa-solid fa-mobile-screen-button"></i>
                         </div>
                         <h4 class="service-title mb-3">Responsive Web & App Design</h4>
-                        <p class="service-desc">Clean, fast, and built for every screen. I design and develop interfaces that feel native whether your users are on desktop, tablet, or mobile — with zero compromise on experience.</p>
+                        <p class="service-desc">Clean, fast, and built for every screen. I design and develop interfaces that feel native whether your users are on desktop, tablet, or mobile with zero compromise on experience.</p>
                     </div>
                 </div>
                 <!-- Service 4 -->
@@ -225,7 +225,7 @@
                             <i class="fa-solid fa-shield-halved"></i>
                         </div>
                         <h4 class="service-title mb-3">Technical Consultation & Security</h4>
-                        <p class="service-desc">Before you build or scale, get it right. I review architectures, identify bottlenecks, audit security vulnerabilities, and give you a concrete roadmap — not vague advice.</p>
+                        <p class="service-desc">Before you build or scale, get it right. I review architectures, identify bottlenecks, audit security vulnerabilities, and give you a concrete roadmap not vague advice.</p>
                     </div>
                 </div>
             </div>
