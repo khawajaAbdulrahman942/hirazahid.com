@@ -22,7 +22,7 @@
             <div class="col-lg-3 mb-5 mb-lg-0">
                 <h5 class="footer-heading mb-4">TALK TO US</h5>
                 <div class="footer-contact-info mb-4">
-                    <a href="mailto:hirazahid@gmail.com" class="footer-contact-link d-block mb-2">hirazahid@gmail.com</a>
+                    <a href="mailto:hira.zahid123@gmail.com" class="footer-contact-link d-block mb-2">hira.zahid123@gmail.com</a>
                     <a href="tel:+923017866911" class="footer-contact-link">+92 301 7866911</a>
                 </div>
                 <div class="footer-social-icons d-flex gap-3">

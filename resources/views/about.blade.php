@@ -65,36 +65,25 @@
                         <p class="category-description mb-5">Delivering modern software solutions across web development, AI automation, SaaS platforms, and scalable backend systems. Focused on building reliable digital products with clean architecture, optimized performance, and intelligent user experiences.</p>
 
                         <div class="experience-list">
-                            <!-- Experience 1: Systems -->
-                            <div class="experience-item row align-items-start mb-5">
+                            <!-- Experience 1: Content Arcade -->
+                            <div class="experience-item row mb-5">
                                 <div class="col-md-3">
-                                    <h3 class="systems-logo">systems</h3>
+                                    <img src="{{ asset('assets/302322705_461750719301821_1928132574746980306_n_360.webp') }}" alt="Content Arcade" class="img-fluid exp-logo">
                                 </div>
                                 <div class="col-md-9">
-                                    <h4 class="text-white mb-2" style="font-weight: 600;">Full Stack Engineer</h4>
-                                    <p class="category-description">Led full-stack development across client-facing web platforms and internal tooling. Designed RESTful APIs in Node.js and Laravel, implemented React frontends, and introduced OpenAI-powered automation that cut manual processing time by over 60%. Owned system architecture decisions and oversaw cloud deployment pipelines.</p>
+                                    <h4 class="text-white mb-2" style="font-weight: 600;">Content Arcade (Oct 2019 – Dec 2023)</h4>
+                                    <p class="category-description">Spent 4+ years at Content Arcade engineering full stack web products from the ground up using PHP, Laravel, React, and modern JavaScript frameworks building SaaS platforms, MVPs, admin panels, and role-based dashboards, designing scalable backend APIs, converting Figma/PSD/XD designs into responsive production interfaces, integrating third-party APIs and payment gateways, and managing full deployment cycles including server configuration, security hardening, and performance optimization.</p>
                                 </div>
                             </div>
 
-                            <!-- Experience 2: Arpatech -->
-                            <div class="experience-item row align-items-start mb-5">
+                            <!-- Experience 2: Upwork -->
+                            <div class="experience-item row mb-5">
                                 <div class="col-md-3">
-                                    <img src="{{ asset('assets/arpatech.webp') }}" alt="Arpatech" class="img-fluid exp-logo">
+                                    <img src="{{ asset('assets/upwork-logo.svg_720.webp') }}" alt="Upwork" class="img-fluid exp-logo">
                                 </div>
                                 <div class="col-md-9">
-                                    <h4 class="text-white mb-2" style="font-weight: 600;">Backend Developer</h4>
-                                    <p class="category-description">Built and maintained backend services for enterprise-level SaaS products using Node.js and MongoDB. Designed scalable data models, engineered high-throughput API layers, and collaborated with cross-functional teams to deliver product features on accelerated timelines. Contributed significantly to performance optimization work across core services.</p>
-                                </div>
-                            </div>
-
-                            <!-- Experience 3: Grownix -->
-                            <div class="experience-item row align-items-start mb-5">
-                                <div class="col-md-3">
-                                    <img src="{{ asset('assets/grownix.webp') }}" alt="Grownix" class="img-fluid exp-logo grownix-logo">
-                                </div>
-                                <div class="col-md-9">
-                                    <h4 class="text-white mb-2" style="font-weight: 600;">AI Integration Specialist</h4>
-                                    <p class="category-description">Embedded AI features into a growth-focused SaaS platform integrating LLM workflows via FastAPI, building automated content pipelines using OpenAI, and deploying Python-based data services. Delivered AI-driven personalization features that measurably improved user engagement and platform retention metrics.</p>
+                                    <h4 class="text-white mb-2" style="font-weight: 600;">Upwork Current Profile</h4>
+                                    <p class="category-description">I'm a Full Stack Developer specializing in Laravel and the MERN stack, helping startups and product teams build scalable SaaS platforms, MVPs, and custom web applications from architecture to deployment with a strong focus on clean API design, responsive frontends with React and Next.js, robust backend systems with Node.js and Laravel, and seamless third-party integrations.</p>
                                 </div>
                             </div>
                         </div>
