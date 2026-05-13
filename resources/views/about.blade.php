@@ -22,7 +22,7 @@
 
     <div class="page-gradient-wrapper">
         <main class="portfolio-main-content">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="about-detail-wrapper">
                     <span class="portfolio-badge-alt mb-4">About Me</span>
                     <h2 class="category-title mb-5">Full Stack Developer & Ai Integrator</h2>
@@ -33,7 +33,7 @@
                         <p class="category-description">I bring a problem-solving mindset to every project, whether it involves building scalable multi-tenant platforms, optimizing application performance, or engineering intelligent features that deliver measurable value. Focused on precision, scalability, and long-term maintainability, I develop solutions designed to perform in real-world production environments.</p>
                     </div>
 
-                    <div class="about-footer-row d-flex align-items-center gap-5 pt-4">
+                    <div class="about-footer-row d-flex flex-wrap align-items-center gap-4 gap-lg-5 pt-4">
                         <div class="experience-stat d-flex align-items-center gap-4">
                             <div class="stat-item">
                                 <span class="stat-label d-block mb-0 pb-0"

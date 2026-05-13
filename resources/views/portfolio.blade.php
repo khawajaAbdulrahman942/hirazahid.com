@@ -22,7 +22,7 @@
 
     <div class="page-gradient-wrapper">
         <main class="portfolio-main-content">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="portfolio-intro mb-5">
                     <span class="portfolio-badge-alt">Portfolio</span>
                     <h2 class="portfolio-main-heading">Projects that reflect my expertise and vision</h2>

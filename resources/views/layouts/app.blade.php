@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/webp" href="{{ asset('favicon.webp') }}">
     <title>@yield('title', 'Hira Zahid - Portfolio')</title>
 
     <!-- Google Fonts -->
@@ -25,7 +26,7 @@
     @stack('styles')
 </head>
 <body>
-    <div id="app">
+    <div id="app" style="overflow-x: hidden;">
         @yield('content')
     </div>
 
