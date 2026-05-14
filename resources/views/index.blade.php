@@ -32,7 +32,7 @@
                             Lets Talk
                             <div class="icon-circle">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="7" y1="17" x2="17" y2="7"></line>
                                     <polyline points="7 7 17 7 17 17"></polyline>
                                 </svg>
@@ -44,7 +44,7 @@
 
                 <div class="col-lg-5 position-relative">
                     <div class="hero-visuals">
-                        <img src="{{ asset('assets/floating_cubes.webp') }}" alt="3D Visuals" class="main-visual"
+                        <img src="{{ asset('assets/bceac9d4d3ebaf16a9505d7a9168152ad578b34d.webp') }}" alt="3D Visuals" class="main-visual"
                             onerror="this.style.display='none'">
                     </div>
                 </div>
